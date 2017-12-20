@@ -7,7 +7,6 @@ header{
 }
 
 h1{
-    
     font-size: 70px;
     font-weight: bold;
     color: white;
@@ -30,18 +29,16 @@ p{
 h1, h2, h3, p, a{
     font-family: Helvetica, sans-serif;
 }
+
 nav a{
-    
     font-size: 18px;
     color: white;
-    
 }
 
 #lefty{
     text-align: left;
     font-size: 11px;
     color: white;
-    
 }
 
 footer nav{
