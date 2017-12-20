@@ -1,20 +1,60 @@
 body{
     text-align: center;
 }
-nav ul{
+
+header{
+    background-image: url(../img/the-flatiron-building.png);
+}
+
+h1{
     
-    list-style-type: none;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
 }
 
-footer nav ul{
-    list-style-type: none;
+h2{
+    font-size: 32px;
+    font-weight: bold;
 }
 
-ul#horizontal li{
-    display: inline;
+h3{
+    font-size: 23px;
+    font-weight: bold;
 }
-p#lefty{
+
+p{
+    font-size: 14px;
+}
+
+h1, h2, h3, p, a{
+    font-family: Helvetica, sans-serif;
+}
+nav a{
+    
+    font-size: 18px;
+    color: white;
+    
+}
+
+#lefty{
     text-align: left;
-    background-color: blueviolet;
+    font-size: 11px;
+    color: white;
     
+}
+
+footer nav{
+    background-color: dimgray;
+}
+         
+h2#nydesign{
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    background-image: url("../img/the-flatiron-building.png");
+}
+
+footer nav p{
+    display: inline;
 }
